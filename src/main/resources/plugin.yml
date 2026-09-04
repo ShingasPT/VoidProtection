@@ -1,0 +1,9 @@
+name: VoidProtection
+version: '${version}'
+main: me.shingas.voidProtection.VoidProtection
+api-version: '26.2'
+load: POSTWORLD
+folia-supported: true
+authors: [ Shingas ]
+description: Teleports players to safety when they fall into the void.
+
