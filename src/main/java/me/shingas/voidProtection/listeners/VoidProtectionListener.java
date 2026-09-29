@@ -40,7 +40,7 @@ public class VoidProtectionListener implements Listener {
                 return;
             }
 
-            String prefix = plugin.getConfig().getString("Prefix", "");
+            String prefix = "<dark_gray>[</dark_gray><yellow>VoidProtection<dark_gray>]</dark_gray>";
             String message = plugin.getConfig().getString("message", "<prefix> <yellow>You have been teleported to safety.");
 
             MiniMessage miniMessage = MiniMessage.miniMessage();

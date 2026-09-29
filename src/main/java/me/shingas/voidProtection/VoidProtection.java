@@ -14,11 +14,11 @@ public final class VoidProtection extends JavaPlugin {
                 this
         );
 
-        getLogger().info("VoidProtection has started.");
+        getLogger().info("VoidProtection is ready to protect!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("VoidProtection is offline.");
+        getLogger().info("VoidProtection is taking a nap.");
     }
 }

@@ -1,6 +1,7 @@
-Prefix: "<dark_gray>[</dark_gray><yellow>VoidProtection<dark_gray>]</dark_gray>"
+## Config
 
 # Y level at (or below) which a player is teleported back to their world's spawn.
 min-height: -100
 
+# Message that players get when they get teleported to spawn
 message: "<prefix> <yellow>You have been teleported to safety."
